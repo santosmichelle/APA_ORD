@@ -16,7 +16,7 @@ public class InsertionSort {
 			 entrada[i+1] = entrada[i];
                 i--;
             }
-
+ 
             entrada[i+1] = aux;
 			
 

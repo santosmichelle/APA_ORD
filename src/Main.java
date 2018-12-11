@@ -4,9 +4,9 @@ public class Main {
 	public static void main(String args []) {
 		
 		
-		int aux[] = {8,5,4,2,3,9,1,2};
+		int aux[] = {3,0,1,8,7,2,5, 2, 3,4,9,6};
 		SelectionSort select = new SelectionSort();
-		select.Selection(aux);
+		select.Selection(aux);;
 		
 		
 		

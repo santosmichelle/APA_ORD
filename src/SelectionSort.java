@@ -6,9 +6,10 @@ public class SelectionSort {
 
 		int i, j, imin, aux =0;
 
-		for (i = 0;  i < entrada.length; i++) {
-			imin =i;			
-			for (j= i +1 ; j < entrada.length; i++) {
+		for (i = 0;  i < entrada.length ; i++) {
+			imin =i;
+			
+			for (j= i +1 ; j < entrada.length; j++) {
 				if(entrada[j]< entrada[imin])
 					imin=j;
 
